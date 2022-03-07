@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="../styles/pedido.css">
+</head>
+<body>
+    <h1>Aqui puedes hacer tu pedido:</h1>
+    <form action="" class="pedido">
+        <fieldset class="datos-cliente">
+            <legend>Datos del cliente</legend>
+            <label for="nombre" class="dato-cliente">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Juan Pérez Sánchez" required class="dato-cliente">
+            <label for="telefono" class="dato-cliente">Telefono:</label>
+            <input type="tel" id="telefono" maxlength="10" minlength="10"  required class="dato-cliente">
+            <label for="correo">email</label class="dato-cliente">
+            <input type="email" id="correo" required class="dato-cliente">
+
+            <h2>Tipo de Entrega</h2>
+            <input type="radio" id="recoger" name="entrega" value="recoger" >
+            <label for="recoger" >Recoger en Tienda</label><br>
+            <input type="radio" id="entregar" name="entrega" value="entregar" >
+            <label for="entrega" >Entregar a domicilio</label><br>
+            
+            <label for="direccion"class="dato-cliente" >Dirección de Entrega</label>
+            <input type="text" placeholder="Calle Rosas 234 Col. Santa Fe" class="dato-cliente" >
+
+            <h2>Fecha para Entregar</h2><br>
+            <input type="date" id="fecha1" name="fecha1"><br >           
+            
+        </fieldset>
+        <fieldset datos-pastel>
+            <legend>Datos del Pedido</legend>
+            <label for="pastel" class="dato-cliente">Que Pastel Quieres? Puedes Combinar sabores</label>
+            <input type="checkbox" name="almendra" id="almendra" value="Almendra">
+            <label for="almendra">Almendra</label>
+            <input type="checkbox" name="amaretto" id="amaretto" value="Amaretto">
+            <label for="amaretto">Amaretto</label>
+            <input type="checkbox" name="cajeta" id="cajeta" value="Cajeta">
+            <label for="cajeta">Cajeta</label>
+            <input type="checkbox" name="chocolate" id="chocolate" value="Chocolate">
+            <label for="chocolate">Chocolate</label>
+            <input type="checkbox" name="durazno" id="durazno" value="Durazno">
+            <label for="Durazno">Durazno</label>
+            <input type="checkbox" name="nuez" id="nuez" value="Nuez">
+            <label for="nuez">Nuez</label>
+            <br><br>
+
+            <label for="pastel" class="dato-cliente">Que Adorno Quieres? Puedes Combinar Adornos</label>
+            <input type="checkbox" name="adorno1" id="adorno1" value="adorno1">
+            <label for="adorno1">Adorno 1</label>
+            <input type="checkbox" name="adorno2" id="adorno2" value="adorno2">
+            <label for="adorno2">Adorno 2</label>
+            <input type="checkbox" name="adorno3" id="adorno3" value="adorno3">
+            <label for="adorno3">Adorno 3</label>
+            <input type="checkbox" name="adorno4" id="adorno4" value="adorno4">
+            <label for="adorno4">Adorno 4</label>
+            <input type="checkbox" name="adorno5" id="adorno5" value="adorno5">
+            <label for="adorno5">Adorno 5</label>
+            <input type="checkbox" name="adorno6" id="adorno6" value="adorno6">
+            <label for="adorno6">Adorno 6</label>
+            <br>
+            <br>
+            <label for="comprar"></label>
+            <input type="submit" value="Hacer Pedido" class="comprar">
+
+
+
+
+
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>

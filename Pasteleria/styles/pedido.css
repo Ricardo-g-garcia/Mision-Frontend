@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f1cbb9;
+    font-size: 16px;
+}
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.pedido{
+    width: 50%;
+    margin-left: 20px;
+}
+fieldset{
+    padding: 20px 5px;
+}
+legend{
+    font-size: x-large;
+    font-weight: bold;
+}
+.dato-cliente{
+    display: block;
+    width: 80%;
+    padding: 5px;
+}
+.comprar{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #17B5B7;
+    font-size: 25px;
+    color: white;
+}
+.datos-cliente{
+    margin: 20px 5px;
+}
