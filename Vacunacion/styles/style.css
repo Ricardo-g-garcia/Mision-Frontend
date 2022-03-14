@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ p{
+     color:#6d7b93;
+     font-size: 20px;
+ }
+ h2 {
+    color: #1f3e72;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+h3 {
+    color: #1f3e72;
+    font-size: 25px;
+
+}
+ /******************************************************************************************
+*                                  Encabezado                                              *
+ ******************************************************************************************/
+
+ .encabezado{
+     margin-top: 30px; 
+     display: flex;    
+     align-items: center;
+     justify-content: flex-end;
+ }
+a.logo{
+    flex: 1;
+    margin-left: 100px;
+}
+.menu{
+    display: inline-block;
+    flex: 4;
+    margin-left: 300px;
+}
+ .menu ul{
+     list-style: none;
+ }
+ .menu ul li{
+     color:#6d7b93;
+     display: inline-block;
+     font-size: 20px;
+     padding: 0px 25px;
+ }
+ .menu ul li a{
+     text-decoration: none;
+ }
+ .menu ul li a:hover{
+     font-weight: bolder;
+ }
+ .encabezado-menu-boton-azul{
+     background-color: #3757d5;
+     color: white;
+     padding: 5px 20px;
+     border-radius: 2px;
+     box-shadow: 0px 5px 5px #c1c2c9;
+ }
+
+ /******************************************************************************************
+*                                  Seccion Fight                                           *
+ ******************************************************************************************/
+
+.fight-virus div{
+    width: 500px;
+    margin-left: 100px;
+}
+.fight-virus h1{
+    color: #1f3e72;
+    font-size: 50px;
+    margin-top: 100px;
+    
+}
+.fight-virus p{
+    margin-top: 10px;
+}
+.fight-virus img{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+.fight-virus ul{
+    padding-top: 70px;
+    list-style: none;
+}
+.fight-virus ul li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.fight-virus ul span{
+    color: rgb(206, 166, 35);
+}
+.fight-virus h3{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.azul{
+    color: #3678eb;
+    font-size: 16px;
+}
+/******************************************************************************************
+*                                  Formulario                                             *
+ ******************************************************************************************/
+.agenda-vacuna{
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 1000px;
+    height: 120px;
+    position: relative;
+    left: 150px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 5px #c1c2c9;
+}
+.agenda-vacuna input{
+    border: 1px solid rgb(230, 215, 215);
+    height: 35px;
+}
+#location, #fecha{
+    position: relative;
+    top: 25px;
+    left: -60px;
+}
+#tipo-vacuna{
+    position: relative;
+    top: 25px;
+    left: -100px;
+}
+.boton-azul{
+    background-color: #3757d5;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0px 5px 5px #c1c2c9;
+    padding: 5px 20px;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    left: 130px;
+     
+}
+.boton-azul:hover{
+    font-weight: bold;
+}
+.marcas-vacunas{
+    width: 90%;
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+/******************************************************************************************
+*                                  Seccion Why                                            *
+ ******************************************************************************************/
+.why {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.why p{
+    width: 500px;
+}
+.benefits{
+    display: flex;
+    justify-content: space-around;
+}
+.benefits div{
+    margin-top: 40px;
+    width: 250px;    
+}
+.benefits h3{
+    margin-bottom: 30px;
+}
+.benefits p{
+    width: 85%;
+}
+/******************************************************************************************
+*                                  Seccion preparation                                    *
+ ******************************************************************************************/
+ .preparation{
+     margin-top: 150px;
+ }
+ .preparation div{
+     width: 30%;
+     float: right;
+     margin-right: 200px;
+     overflow: auto;
+ }
+ .preparation img{
+    margin-top: 100px;
+    margin-left: 50px; 
+    width: 45%;
+ }
+ details summary { 
+    cursor: pointer;
+    padding: 20px;
+    font-size: 20px;
+    color: #1f3e72;
+  }
+/******************************************************************************************
+*                                 Seccion emergy-contact                                  *
+ ******************************************************************************************/
+ .emergency-contact{
+     margin-top: 150px;
+ }
+ .contact{
+     width: 50%;
+     overflow: auto;
+     float: left;
+     margin-left: 50px;
+ }
+
+ .emergency-contact img{
+     width: 40%;
+     margin-left: 50px;
+     margin-top: 100px;
+ }
+ .contact-method{
+     display: flex;
+     margin-top: 50px;
+     flex-wrap: wrap;
+ }
+
+.contact-method div{
+    width: 50%;
+    height: 150px;
+    margin-top: 40px;
+}
+.contact-method div a{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+}
+.boton-azul-chat{
+    background-color: #3757d5;
+    color: white;
+    border-radius: 2px;
+    box-shadow: 0px 5px 5px #c1c2c9;
+    padding: 5px 20px;
+    /*font-size: 25px;
+    position: relative;
+    top: 15px;*/
+    text-decoration: none;
+}
+.boton-azul-chat:hover{
+    font-weight: bold;
+}
+/******************************************************************************************
+*                                 Seccion ultima                                          *
+ ******************************************************************************************/
+.ultima{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.ultima div:first-child{
+    width: 600px;
+    padding-right: 400px;
+}
+.ultima div{
+    width: 200px;
+}
+.ultima div a{
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/******************************************************************************************
+*                                         Footer                                          *
+ ******************************************************************************************/
+ footer{
+     display: flex;
+     justify-content: space-between;
+     padding: 50px;
+ }
+
+
+
+
+
+

@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'vaccine';
+  src:  url('vaccine.eot?y43wni');
+  src:  url('vaccine.eot?y43wni#iefix') format('embedded-opentype'),
+    url('vaccine.ttf?y43wni') format('truetype'),
+    url('vaccine.woff?y43wni') format('woff'),
+    url('vaccine.svg?y43wni#vaccine') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'vaccine' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-avoid-stress .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.icon-avoid-stress .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-avoid-stress .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-bar-chart .path1:before {
+  content: "\e903";
+  color: rgb(0, 0, 0);
+}
+.icon-bar-chart .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-bar-chart .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-bar-chart .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-bar-chart .path5:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-bar-chart .path6:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-inmunity .path1:before {
+  content: "\e909";
+  color: rgb(0, 0, 0);
+}
+.icon-inmunity .path2:before {
+  content: "\e90a";
+  margin-left: -1.02734375em;
+  color: rgb(254, 254, 254);
+}
+.icon-inmunity .path3:before {
+  content: "\e90b";
+  margin-left: -1.02734375em;
+  color: rgb(254, 254, 254);
+}
+.icon-inmunity .path4:before {
+  content: "\e90c";
+  margin-left: -1.02734375em;
+  color: rgb(254, 254, 254);
+}
+.icon-inmunity .path5:before {
+  content: "\e90d";
+  margin-left: -1.02734375em;
+  color: rgb(55, 52, 53);
+}
+.icon-pencil-edit:before {
+  content: "\e90e";
+}
+.icon-protection .path1:before {
+  content: "\e90f";
+  color: rgb(0, 0, 0);
+}
+.icon-protection .path2:before {
+  content: "\e910";
+  margin-left: -0.998046875em;
+  color: rgb(254, 254, 254);
+}
+.icon-sleep .path1:before {
+  content: "\e911";
+  color: rgb(0, 0, 0);
+}
+.icon-sleep .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(254, 254, 254);
+}
+.icon-spread:before {
+  content: "\e913";
+}
+.icon-star:before {
+  content: "\e914";
+}
+.icon-video:before {
+  content: "\e915";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-clock2:before {
+  content: "\e94f";
+}
+.icon-calendar:before {
+  content: "\e953";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-equalizer:before {
+  content: "\e992";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-glass2:before {
+  content: "\e9a1";
+}
+.icon-spoon-knife:before {
+  content: "\e9a3";
+}
+.icon-accessibility:before {
+  content: "\e9b2";
+}
+.icon-shield:before {
+  content: "\e9b4";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
