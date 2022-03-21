@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*background-color: #ffcb05;*/
-    
  }
  #img-head{
      display: inline-block;
@@ -39,7 +37,7 @@
     border: 5px solid #395EA9;
     background-color: #fac390;
     border-radius: 20%;
-    float: left;
+    /*float: left;*/
 }
 
 .datos-basicos{
