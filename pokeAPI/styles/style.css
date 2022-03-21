@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: #ffcb05;*/
+    
+ }
+ #img-head{
+     display: inline-block;
+     margin-left: 120px;
+ }
+
+.contenedor{
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #21386E;
+}
+.cuadro1{
+    display: inline-block;
+    height: 450px;
+    background-color: #fac390;
+    width: 50%;
+}
+.cuadro2{
+    display: inline-block;
+    width: 50%;
+    height: 450px;
+    background-color: #ffcb05;
+    
+}
+
+#pokeImg{
+    margin-left: 15px;
+    margin-top: 15px;
+    display: inline-block;
+    width: 200px;
+    border: 5px solid #395EA9;
+    background-color: #fac390;
+    border-radius: 20%;
+    float: left;
+}
+
+.datos-basicos{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 50%;
+    height: 200px;
+}
+#nombre{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul{
+    display: inline;
+    margin-top: 10px;
+    list-style: none;
+}
+ul li{
+    display: inline;
+    font-size: 20px;
+    padding: 0px 15px;
+
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#pokeName{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.propiedad{
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 30%;
+    font-weight: bold;
+}
+.valor{
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+    width: 60%;
+}
+.habilidades{
+    font-weight: bold;
+    width: 30%;
+}
+input{
+    font-size: 25px;
+}
+#btn-buscar{
+    color: white;
+    font-size: 20px;
+    background-color: #395EA9;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+#habilidades{
+    margin-left: 80px;
+    width: 1000px;
+    font-size: 20px;
+}
+#habilidades td{
+    border-bottom: 1px solid brown;
+}
+#moves{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
