@@ -32,12 +32,11 @@
 #pokeImg{
     margin-left: 15px;
     margin-top: 15px;
-    display: inline-block;
     width: 200px;
     border: 5px solid #395EA9;
     background-color: #fac390;
     border-radius: 20%;
-    /*float: left;*/
+    float: left;
 }
 
 .datos-basicos{
